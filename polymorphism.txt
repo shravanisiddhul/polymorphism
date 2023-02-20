@@ -1,0 +1,26 @@
+#include<iostream>
+using namespace std;
+class Addition
+{
+    public:
+    int Add(int x,int y)
+    {
+        return x+y;
+    }
+    int Add()
+    {
+        string a,b,c;
+        a="HELLO";
+        b=" SHRAVANI";
+        c=a+b;
+        cout<<c<<endl;
+        return 0;
+    }
+};
+int main()
+{
+    Addition obj;
+    cout<<obj.Add(23,12)<<endl;
+    obj.Add();
+    return 0;
+}
